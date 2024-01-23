@@ -1,0 +1,17 @@
+{
+  "name": "bot-app",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "keywords": [],
+  "author": "Siarhei Kharlanau s.v.harlanov@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.2",
+    "telegraf": "^4.15.3"
+  }
+}
