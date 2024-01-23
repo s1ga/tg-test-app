@@ -26,9 +26,12 @@ Welcome to the Telegram Mini App – a project that combines the power of a Tele
 
 ### Usage
 
-1. Start the Angular web application: `npm run start`
-2. Start the Telegram bot: `cd ../bot-app && npm run start`
-3. Open your web browser and go to `http://localhost:4200/` to access the web application.
+1. Create bot using Bot Father in Telegram.
+2. Create .env for bot configuration: `cd ../bot-app && touch .env`
+3. Paste generated token for bot and url (https only) of your web app in the file.
+4. Start the Telegram bot: `npm run start`
+5. Start the Angular web application: `cd ../site && npm run start`
+6. Open your Telegram bot and interact with them.
 
 ## License
 
